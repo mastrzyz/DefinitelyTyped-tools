@@ -11,8 +11,9 @@
         "es6": true
     },
     "plugins": [
-        "@typescript-eslint", "jsdoc", "import"
+        "@typescript-eslint", "jsdoc", "import", "eslint-plugin-expect-type"
     ],
+    "extends": ["plugin:expect-type/recommended"],
     "rules": {
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": "error",
